@@ -1,0 +1,413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"60",
+				"600px"
+			],
+			[
+				"900",
+				"900px"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"onmou",
+				"onmouseover	Attr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"c",
+				"ce	console.error"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"inspa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack cont",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insp",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set html",
+				"Snippet: htmlboiler"
+			],
+			[
+				"set h",
+				"Set Syntax: HTML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"synt j",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/albapardos/datatables_servidor",
+		"/home/albapardos/datatables_servidor/app",
+		"/home/albapardos/datatables_servidor/app/php",
+		"/home/albapardos/datatables_servidor/app/scripts",
+		"/home/albapardos/datatables_servidor/soluciones"
+	],
+	"file_history":
+	[
+		"/home/albapardos/datatables_servidor/datatables-servidor.sublime-project",
+		"/home/albapardos/datatables_servidor/app/scripts/ejercicio4.js",
+		"/home/albapardos/datatables_servidor/app/scripts/ejercicio3.js",
+		"/home/albapardos/datatables_servidor/app/php/cargar_clinicas_mejor.php",
+		"/home/albapardos/datatables_servidor/app/index.html",
+		"/home/albapardos/datatables_servidor/app/ejercicio4.html",
+		"/home/albapardos/datatables_servidor/app/ejercicio3.html",
+		"/home/albapardos/datatables_servidor/app/scripts/ejercicio2.js",
+		"/home/albapardos/datatables_servidor/Gruntfile.js",
+		"/home/albapardos/datatables_servidor/app/ejercicio2.html",
+		"/home/albapardos/datatables_servidor/app/php/cargar_clinicas.php",
+		"/home/albapardos/datatables_servidor/app/php/ssp.class.php",
+		"/home/albapardos/bootstrap/node_modules/grunt/appveyor.yml",
+		"/home/albapardos/bootstrap/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/home/albapardos/bootstrap/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/test/api.js",
+		"/home/albapardos/bootstrap/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler/test/cases/04-unescaped_in_script.json",
+		"/home/albapardos/bootstrap/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/vinyl/lib/isNull.js",
+		"/home/albapardos/bootstrap/node_modules/grunt-mocha/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
+		"/home/albapardos/bootstrap/bower_components/jquery/src/effects.js",
+		"/home/albapardos/bootstrap/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/entity-mega.js",
+		"/home/albapardos/bootstrap/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/fs-extra/node_modules/.bin/mkdirp",
+		"/home/albapardos/bootstrap/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/express-session/session/memory.js",
+		"/home/albapardos/bootstrap/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeMetadata.js",
+		"/tmp/.fr-xe1kY3/bootstrap_1/ejercicio1.html",
+		"/tmp/.fr-fbKpg7/bootstrap_1/ejercicio3.html",
+		"/var/www/AppLaravel1/app/filters.php",
+		"/home/albapardos/ProyectosLaravel/MiAppLaravel/app/routes.php",
+		"/home/albapardos/ProyectosLaravel/MiAppLaravel/app/views/layout.blade.php",
+		"/var/www/datatables2/app/ejercicio2.html",
+		"/var/www/datatables2/app/ejercicio3.html",
+		"/var/www/datatables2/app/ejercicio4.html",
+		"/var/www/datatables2/app/ejercicio6.html",
+		"/var/www/datatables2/app/ejercicio6_solucionado.html",
+		"/var/www/datatables2/app/ejercicio7.html",
+		"/var/www/datatables2/app/ejercicio1.html",
+		"/var/www/datatables2/app/scripts/ejercicio2.js",
+		"/var/www/datatables2/bower.json",
+		"/var/www/datatables2/Gruntfile.js",
+		"/var/www/datatables2/app/php/cargar_clinicas.php",
+		"/var/www/datatables2/app/index.html",
+		"/media/albapardos/AP/personal/2ºDAW/Diseño_de_Interfaces_Web/Tema6/ejercicios_responsivos/Ejercicio2/ejercicio2_solucion.html",
+		"/media/albapardos/AP/personal/2ºDAW/Diseño_de_Interfaces_Web/Tema6/ejercicios_responsivos/Ejercicio2/style2.css",
+		"/media/albapardos/AP/personal/2ºDAW/Diseño_de_Interfaces_Web/Tema6/ejercicios_responsivos/Ejercicio2/style.css",
+		"/media/albapardos/AP/personal/2ºDAW/Diseño_de_Interfaces_Web/Tema6/ejercicios_responsivos/ejercicio1.html",
+		"/media/albapardos/AP/personal/2ºDAW/Diseño_de_Interfaces_Web/Tema5/Ejercicios/css_sprites/Ejercicio4/index.html",
+		"/media/albapardos/AP/personal/2ºDAW/Diseño de Interfaces Web/Tema5/Ejercicios/css_sprites/Ejercicio3/index.html",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio7.html",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio6.html",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio5.html",
+		"/home/albapardos/ejercicios_datatables/app/index.html",
+		"/home/albapardos/ejercicios_datatables/app/favicon.ico",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio2.html",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio1.html",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio3.html",
+		"/home/albapardos/ejercicios_datatables/app/styles/main.css",
+		"/home/albapardos/ejercicios_datatables/app/ejercicio4.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 4/datatables/ejercicio2.html",
+		"/var/www/datatables1/ejercicio1.html",
+		"/var/www/datatables1/ejercicio2.html",
+		"/home/albapardos/.config/sublime-text-3/Settings/SideBarEnhancements.json",
+		"/var/www/datatables1/DataTables-1.10.4/package.json",
+		"/var/www/datatables1/DataTables-1.10.4/examples/advanced_init/footer_callback.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/Ejercicios5/ejercicio1.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/Repaso DOM/6.html",
+		"/var/www/autentificacion/general.html",
+		"/var/www/autentificacion/grupo/grupo.php",
+		"/var/www/autentificacion/restringida/res.php",
+		"/var/www/autentificacion/sara/sara.php",
+		"/home/albapardos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/ajax/index.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 4/ejercicios_plugin_validation_1/1.html",
+		"/run/user/1001/gvfs/sftp:host=infenlaces.com,user=albapardos/home/albapardos/web/albapardos.infenlaces.com/public_html/index.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/Repaso DOM/3.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/javascript_ejercicios4/ejercicio4_1.html",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico3/EjercicioBasico3_4",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico3/EjercicioBasico3_2",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico3/EjercicioBasico3_3",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico3/EjercicioBasico3_5",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico3/EjercicioBasico3_1",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico2/EjercicioBasico2_1",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico2/EjercicioBasico2_2",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico2/EjercicioBasico2_3",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico2/EjercicioBasico2_4",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1/EjercicioBasico1_5",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1_6",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1_5",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1_4",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1_3",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1_2",
+		"/media/albapardos/AP/personal/2ºDAW/Desarrollo Web en Entorno Cliente/Tema 2/ejercicios/EjercicioBasico1_1"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index.html",
+			"index.html\n",
+			"});\n",
+			"wiredep",
+			"content",
+			"wirede"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 297.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"project": "datatables-servidor.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"18":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"23":
+				{
+					"group": 0,
+					"index": 3
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
