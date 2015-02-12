@@ -30,34 +30,50 @@
                }
            },
            'columns': [{
-               'data': 'id_clinica'
-           }, {
-               'data': 'nombre'
-           }, {
-               'data': 'razonsocial'
-           }, {
-               'data': 'cif'
-           }, {
-               'data': 'localidad'
-           }, {
-               'data': 'provincia'
-           }, {
-               'data': 'direccion'
-           }, {
-               'data': 'numclinica'
-           }, {
-               'data': 'id_tarifa'
-           }, {
-               'data': 'nombretarifa'
-           }, {
-               'data': 'id_clinica',
-               'render': function(data) {
-                   return '<a class="btn btn-primary" href=http://localhost/php/editar.php?id_clinica=' + data + '>Editar</a><a class="btn btn-warning" href=http://localhost/php/borrar.php?id_clinica=' + data + '>Borrar</a>';
+            'data': 'idClinica'}, 
+           { 
+            'data': 'nombre'}, 
+           {
+            'data': 'razonSocial'}, 
+           {
+            'data': 'cif'}, 
+           {
+            'data': 'localidad'}, 
+           {
+            'data': 'provincia'},
+           {
+            'data': 'direccion'}, 
+           {
+            'data': 'numClinica'}, 
+           {
+            'data': 'idTarifa'},
+           {
+            'data': 'nombreTarifa'},
+           {
+            'data': 'idClinica',
+            'render': function(data) {
+            return '<a class="editarbtn btn btn-primary" href=http://localhost/php/editar.php?id_clinica=' + data + '>Editar</a><a class="btn btn-warning" href=http://localhost/php/borrar.php?id_clinica=' + data + '>Borrar</a>';
                }
            }]
        });
    });
 
+   $("#mitabla").on('click', ".editarbtn", function(e){
+    e.preventDefault();
+    $("#miTabla").fadeOut(100);
+    $("#formulario").fadeIn(100);
+    var nRow = $(this).parents('tr')[0];
+    aData=mitabla.row(nRow).data()
+    $("#id_clinica").val(aData.id_clinica);
+    $("#nombre").val(aData.nombre);
+    $("#numclinica").val(aData.numclinica);
+    $("#razonsocial").val(aData.razonsocial);
+    $("#cif").val(aData.cif);
+    $("#localidad").val(aData.localidad);
+    $("#provincia").val(aData.provincia);
+    $("#direccion").val(aData.direccion);
+    $("#cp").val(aData.cp);
+   }
 /* En http://www.datatables.net/reference/option/ hemos encontrado la ayuda necesaria
 para utilizar el API de datatables para el render de los botones */
 /* Para renderizar los botones según bootstrap, la url es esta: 

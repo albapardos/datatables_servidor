@@ -14,15 +14,14 @@
     <link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.css" />
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main4.css -->
+    <!-- build:css(.tmp) styles/main6.css -->
     <link rel="stylesheet" href="styles/dataTables.bootstrap.css">
-    <link rel="stylesheet" href="styles/main4.css">
-
+    <link rel="stylesheet" href="styles/main6.css">
     <!-- endbuild -->
 </head>
 
 <body>
-    <div class="container-fluid">
+     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <table id="miTabla" class="table">
@@ -55,9 +54,55 @@
                         <th>Editar</th>
                     </tfoot>
                 </table>
-
             </div>
         </div>
+    </div>
+    <div id="formulario" class="row">
+        <form id="miformulario">
+            <div class="form-group">
+                <label for="idClinica">Identificador de la cĺinica</label>
+                <input type="text" class="form-control" id="idClinica">
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre de la clinica</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+                <label for="razonSocial">Razón social de la cĺinica</label>
+                <input type="text" class="form-control" id="razonSocial">
+            </div>
+            <div class="form-group">
+                <label for="cif">CIF de la cĺinica</label>
+                <input type="text" class="form-control" id="cif">
+            </div>
+            <div class="form-group">
+                <label for="localidad">Localidad de la cĺinica</label>
+                <input type="text" class="form-control" id="localidad">
+            </div>
+            <div class="form-group">
+                <label for="provincia">Provincia de la cĺinica</label>
+                <input type="text" class="form-control" id="provincia">
+            </div>
+            <div class="form-group">
+                <label for="direccion">Direccion de la cĺinica</label>
+                <input type="text" class="form-control" id="direccion">
+            </div>
+            <div class="form-group">
+                <label for="numClinica">Número de la cĺinica</label>
+                <input type="text" class="form-control" id="numClinica">
+            </div>
+            <div class="form-group">
+                <label for="idTarifa">Id de la tarifa</label>
+                <input type="text" class="form-control" id="idTarifa">
+            </div>
+            <div class="form-group">
+                <label for="nombreTarifa">Nombre de la tarifa</label>
+                <input type="text" class="form-control" id="nombreTarifa">
+            </div>
+                    
+                <?php endforeach ?>
+            </div>
+        </form>
     </div>
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -66,10 +111,10 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    <!-- build:js({app,.tmp}) scripts/ejercicio5.js -->
+    <!-- build:js({app,.tmp}) scripts/ejercicio6.js -->
     <script src="scripts/jquery.dataTables.js"></script>
     <script src="scripts/dataTables.bootstrap.js"></script>
-    <script src="scripts/ejercicio5.js"></script>
+    <script src="scripts/ejercicio6.js"></script>
     <!-- endbuild -->
 </body>
 
